@@ -68,8 +68,8 @@ $color1: #252525;
 
 [class$="__container"] {
 	max-width: 1200px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 // Header
@@ -326,7 +326,7 @@ $color1: #252525;
 	justify-content: center;
 	background-color: #0008;
 	backdrop-filter: blur(5px);
-	padding: 20px;
+	padding: 20px 10px;
 	&__works {
 		flex: 1 0 400px;
 		display: flex;
@@ -345,16 +345,16 @@ $color1: #252525;
 	&__block {
 		display: flex;
 		flex-direction: column;
-		flex: 0 0 300px;
+		flex: 0 0 240px;
 		border: 1px $color1 solid;
 		box-shadow: 0px 0px 10px $color1 inset;
 		backdrop-filter: blur(1px);
 		border-radius: 15px;
-		padding: 20px;
+		padding: 0;
 		overflow: hidden;
 	}
 	&__heading {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		font-weight: 700;
 		padding: 10px;
 	}
